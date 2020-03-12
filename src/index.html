@@ -1,9 +1,27 @@
 <html>
-  <head>
-    <title>UseState Example App</title>
-  </head>
-  <body>
-  <div id="root"></div>
-  <script src="bundle.js"></script>
-  </body>
+    <head>
+        <title>UseState Example App</title>
+        <style>
+            * {
+              margin: 0;
+              padding: 0;
+            }
+            .rooms {
+              display: flex;
+              flex-direction: column;
+            }
+            .rooms div {
+              width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="rooms">
+            <h4>Chambre 1</h4>
+            <div id="room1"></div>
+            <h4>Chambre 2</h4>
+            <div id="room2"></div>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
 </html>

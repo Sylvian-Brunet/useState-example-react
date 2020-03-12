@@ -1,0 +1,45 @@
+.lit {
+  background-color: red;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+}
+.room .disponibilite, .room .lumiere, .room .temperature {
+  display: flex;
+  flex-direction: row;
+}
+
+.room span,
+.room div {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.temp {
+  padding: 0 5px;
+}
+
+.room button {
+  display: block;
+}
+
+#status {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.free {
+  background-color: green;
+}
+
+.lighted {
+  background-color: yellow;
+}
+.off {
+  background-color: white;
+}
