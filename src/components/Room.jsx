@@ -29,7 +29,7 @@ const Room = () => {
             </button>
         </div>
         <div className="temperature">
-            <span>température de la chambre : {temperature} °C</span>
+            <span>température de la chambre : {temperature}°C </span>
             <button className="temp" onClick={() => { if(isLit != true) setTemperature(prev => prev-1); }}> - </button>
             <button className="temp" onClick={() => { if(isLit != true) setTemperature(prev => prev+1); }}> + </button>
         </div>
